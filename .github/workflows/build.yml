@@ -1,0 +1,44 @@
+name: Compile Domain Lists
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'per_domain_lists/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'per_domain_lists/**'
+  workflow_dispatch:
+
+jobs:
+  compile-domains:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Compile domains list
+      run: |
+        chmod +x .github/compile-domains.sh
+        .github/compile-domains.sh
+
+    - name: Check if changed
+      id: check-changes
+      run: |
+        if git diff --quiet domains.txt; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push
+      if: steps.check-changes.outputs.changed == 'true' && github.event_name != 'pull_request'
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Action"
+        git add domains.txt
+        git commit -m "Auto-update domains.txt"
+        git push

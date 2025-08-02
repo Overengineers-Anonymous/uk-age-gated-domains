@@ -1,0 +1,3 @@
+discord.com
+discordapp.com
+cdn.discordapp.com
