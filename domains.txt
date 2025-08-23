@@ -64,7 +64,7 @@ advertising.reddit.com
 business.reddit.com
 redditads.com
 
-# List of Pornhub domains.
+# pornhub.txt
 nl.pornhub.com	
 jp.pornhub.com	
 cms.pornhub.com
@@ -88,3 +88,26 @@ www.pornhub.com
 pt.pornhub.com
 rt.pornhub.com
 ru.pornhub.com
+
+# xnxx.txt
+vc.xnxx.com
+video.xnxx.com
+videos.xnxx.com
+links.xnxx.com
+forum.xnxx.com
+www.xnxx.com
+m.xnxx.com
+forums.xnxx.com
+games.xnxx.com
+static.xnxx.com
+pics.xnxx.com
+mobile.xnxx.com
+trade.xnxx.com
+proxy.xnxx.com
+galleries.xnxx.com
+gold.xnxx.com
+img1.xnxx.com
+img2.xnxx.com
+info.xnxx.com
+ns1.xnxx.com
+ns2.xnxx.com
