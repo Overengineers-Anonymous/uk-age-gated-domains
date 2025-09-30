@@ -19,6 +19,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        ssh-key: ${{ secrets.COMPILE_LISTS_DEPLOY_KEY }}
 
     - name: Compile domains list
       run: |
