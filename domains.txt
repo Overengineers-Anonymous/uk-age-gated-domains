@@ -3,6 +3,32 @@ discord.com
 discordapp.com
 cdn.discordapp.com
 
+# pornhub.txt
+# List of Pornhub domains.
+
+nl.pornhub.com	
+jp.pornhub.com	
+cms.pornhub.com
+cn.pornhub.com	
+origin.pornhub.com
+feedback.pornhub.com
+partners.pornhub.com
+fr.pornhub.com
+store.pornhub.com
+m.pornhub.com
+api.pornhub.com
+survey.pornhub.com
+de.pornhub.com
+mobile.pornhub.com	
+help.pornhub.com
+es.pornhub.com
+upload.pornhub.com
+it.pornhub.com
+ww.pornhub.com
+www.pornhub.com
+pt.pornhub.com
+rt.pornhub.com
+ru.pornhub.com
 # reddit.txt
 # Thanks @monstermuffin - https://gist.github.com/monstermuffin/b8e86bc9de4d51c6701b00c16990d11b
 reddit.com
@@ -64,32 +90,8 @@ advertising.reddit.com
 business.reddit.com
 redditads.com
 
-# pornhub.txt
-nl.pornhub.com	
-jp.pornhub.com	
-cms.pornhub.com
-cn.pornhub.com	
-origin.pornhub.com
-feedback.pornhub.com
-partners.pornhub.com
-fr.pornhub.com
-store.pornhub.com
-m.pornhub.com
-api.pornhub.com
-survey.pornhub.com
-de.pornhub.com
-mobile.pornhub.com	
-help.pornhub.com
-es.pornhub.com
-upload.pornhub.com
-it.pornhub.com
-ww.pornhub.com
-www.pornhub.com
-pt.pornhub.com
-rt.pornhub.com
-ru.pornhub.com
-
 # xnxx.txt
+# List of XNXX Domains
 vc.xnxx.com
 video.xnxx.com
 videos.xnxx.com
